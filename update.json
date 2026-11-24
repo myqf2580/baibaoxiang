@@ -4,7 +4,7 @@
   "downloadUrl": "https://github.com/myqf2580/baibaoxiang/releases/latest/download/baibaoxiang-arm64-v8a-latest.apk",
   "releaseNotes": "# 百宝箱 v2.4.9\n\n1. 版本更新改为**直连 GitHub**：检查更新直接读取仓库里的版本清单，安装包走 GitHub Release 直链，不再依赖单一服务器。\n2. 多源并行比对：App 同时请求 GitHub / 官方接口 / 静态清单，自动采用版本号最大的一个；任一源不通会自动回退，不影响检查更新。\n3. 更新弹窗现在会显示本次版本来自哪个更新源（GitHub 直连 / 官方服务器 / 静态清单）。\n4. 更新下载校验：安装包附带 SHA-256，校验更稳妥。\n\n> 本次为「直连 GitHub」通道首发版本。若你之前用的是旧版并收到更新提示，点更新即可。",
   "forceUpdate": false,
-  "updateTime": "2026-11-24 09:23:43",
-  "sha256": "65994adb508d1301aaf5349e23d41ccbeb95794b63f23868ccd8fc0bee5c9fe5",
+  "updateTime": "2026-11-24 09:33:36",
+  "sha256": "13971f43c298fd0a1bc8d18161db2af5973dc0651400a1aaef6b1bf76b4ff1b3",
   "channel": "github"
 }
